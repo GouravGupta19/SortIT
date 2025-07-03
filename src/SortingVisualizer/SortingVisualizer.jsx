@@ -79,7 +79,7 @@ function SortingVisualizer() {
   };
 
   return (
-    <>
+    <div>
       <div className="array-container">
         {array.map((value, idx) => (
           <div
@@ -115,7 +115,7 @@ function SortingVisualizer() {
           <span className="slider-value">{NUMBER_OF_ARRAY_BARS}</span>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
